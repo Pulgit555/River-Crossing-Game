@@ -10,7 +10,7 @@ crown = pygame.image.load('Crown.png')
 #initialising game window
 game = pygame.display.set_mode((1800, 1000))
 pygame.init()
-pygame.display.set_caption('My Game')
+pygame.display.set_caption('Pika VS Syduck')
 clock = pygame.time.Clock()
 
 #Different variable

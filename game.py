@@ -42,7 +42,7 @@ def collide():
                     syduck.y = 0
                     Score2 = 0
                     s1.append(Score1)
-                    print ('hit')
+                    # print ('hit')
                 elif pika.x + 50 >= are[i][0] and pika.x + 50 \
                     <= are[i][0] + 70:
                     poke = poke % 1
@@ -50,11 +50,11 @@ def collide():
                     syduck.y = 0
                     Score2 = 0
                     s1.append(Score1)
-                    print ('hit')
+                    # print ('hit')
             elif pika.y + 50 <= are[i][1] + 70 and pika.y + 50 \
                 >= are[i][1]:
                 if pika.x >= are[i][0] and pika.x <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     syduck.x = 800
                     syduck.y = 0
                     Score2 = 0
@@ -62,7 +62,7 @@ def collide():
                     poke = poke % 1
                 elif pika.x + 50 >= are[i][0] and pika.x + 50 \
                     <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     syduck.x = 800
                     syduck.y = 0
                     Score2 = 0
@@ -77,7 +77,7 @@ def collide():
             Score2 = 0
             level1 += 1
             vel1 += 2
-            print ('Player1 reached end point of ' + str(level1))
+            # print ('Player1 reached end point of ' + str(level1))
             syduck.x = 800
             syduck.y = 0
             pika.x = 800
@@ -88,7 +88,7 @@ def collide():
         for i in range(0, 21):
             if syduck.y >= are[i][1] and syduck.y <= are[i][1] + 70:
                 if syduck.x >= are[i][0] and syduck.x <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     pika.x = 800
                     pika.y = 950
                     poke = 1
@@ -96,7 +96,7 @@ def collide():
                     Score1 = 0
                 elif syduck.x + 50 >= are[i][0] and syduck.x + 50 \
                     <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     pika.x = 800
                     pika.y = 950
                     Score1 = 0
@@ -105,7 +105,7 @@ def collide():
             elif syduck.y + 50 <= are[i][1] + 70 and syduck.y + 50 \
                 >= are[i][1]:
                 if syduck.x >= are[i][0] and syduck.x <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     pika.x = 800
                     pika.y = 950
                     Score1 = 0
@@ -113,7 +113,7 @@ def collide():
                     poke = 1
                 elif syduck.x + 50 >= are[i][0] and syduck.x + 50 \
                     <= are[i][0] + 70:
-                    print ('hit')
+                    # print ('hit')
                     pika.x = 800
                     pika.y = 950
                     Score1 = 0
@@ -128,7 +128,7 @@ def collide():
             Score2 = 0
             Score1 = 0
             vel2 += 2
-            print ('Player2 reached end point of ' + str(level2))
+            # print ('Player2 reached end point of ' + str(level2))
             pika.x = 800
             pika.y = 950
             syduck.x = 800
