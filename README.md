@@ -1,7 +1,7 @@
 # River Crossing Game
 
 ## How to run the game:
- Use `python3 file.py`
+ Use `python3 game.py`
  
 ## Here are keypointers regarding the game:
 
